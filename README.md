@@ -10,18 +10,14 @@ This Ansible playbook ensures that `git` is installed on your machine and then c
 
 1. Clone this repository:
 
-```bash
-git clone https://github.com/ibilalkayy/ansible-clone.git
-cd ansible-clone
-```
+       git clone https://github.com/ibilalkayy/ansible-clone.git
+       cd ansible-clone
 
-2. Modify the playbook (`playbook.yml` or whatever you named it) by replacing `'link of the github repo'` with the actual GitHub repository link you want to clone, and `'path of the directory in which you want to clone it'` with the desired destination path on your local machine.
+2. Modify the playbook `file.yml`.
 
 3. Run the playbook:
 
-```bash
-ansible-playbook playbook.yml
-```
+       bash ansible-playbook file.yml
 
 ## What it does
 
@@ -33,10 +29,10 @@ ansible-playbook playbook.yml
 - This playbook is set to run on the `localhost` and will not attempt an SSH connection as the connection is set to `local`.
 - The playbook uses the `apt` package manager, which means it's designed for Debian-based distributions such as Ubuntu.
 
+- [Here is the video explanation of it.](https://www.youtube.com/watch?v=NhRfR2H4bWs)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
 
 Please modify the parts like the repository URL (`https://github.com/ibilalkayy/ansible-clone.git`) and any other placeholders to fit your specific setup and preferences.
